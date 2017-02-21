@@ -21,7 +21,7 @@ $('.todo li').on('click', function(){
    putElementList.call(elementList);// se pasa el contexto
 });
 
-$(".done li').on('click', function(){
+$('.done li').on('click', function(){
   alert("click");
   elementList.htmlItem = $(this).html();
   elementList.item = $(this);
